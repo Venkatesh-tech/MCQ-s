@@ -13,25 +13,25 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "What does HTML stand for?",
+        question : "1.Difference between XML and HTML?",
         imgSrc : "img/html.png",
-        choiceA : "Correct",
-        choiceB : "Wrong",
-        choiceC : "Wrong",
+        choiceA : "XML is used for exchanging data, HTML is not.",
+        choiceB : "HTML cannot have user defined tags,XML can",
+        choiceC : "HTML can have user defined tags, XML cannot",
         correct : "A"
     },{
-        question : "What does CSS stand for?",
+        question : "CSS stand for?",
         imgSrc : "img/css.png",
-        choiceA : "Wrong",
-        choiceB : "Correct",
-        choiceC : "Wrong",
+        choiceA : "casscading style sheets",
+        choiceB : "cascading style sheets",
+        choiceC : "cascading sheets",
         correct : "B"
     },{
-        question : "What does JS stand for?",
+        question : "DOM in js stand for?",
         imgSrc : "img/js.png",
-        choiceA : "Wrong",
-        choiceB : "Wrong",
-        choiceC : "Correct",
+        choiceA : "Object Model",
+        choiceB : "Object Oriented Model",
+        choiceC : "Document Object Model",
         correct : "C"
     }
 ];
